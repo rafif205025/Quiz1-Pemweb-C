@@ -25,5 +25,6 @@ function submit_form() {
   }
   else {
       alert("Data berhasil tersubmit");
+      window.location="http://fajarbaskoro.blogspot.com/";
   }
 }
