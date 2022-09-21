@@ -13,7 +13,7 @@
 
     </header>
     <section class="inside-body">
-        <form action="submit_form()">
+        <form>
         <div class="title">
             <h1>FORMULIR PENDAFTARAN PASIEN BARU</h1>
             <h2>PERHATIAN : HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</h2>
@@ -22,10 +22,10 @@
         <div class="id-pasien">
             <h1>I. Identitas Pasien</h1>
             <label for="nama">Nama Pasien</label>
-            <input type="text" id="nama" required>
+            <input type="text" id="n1" required>
 
             <label for="tempatlahir">Tempat Lahir</label>
-            <input type="text" id="nama" required>
+            <input type="text" id="n1" required>
             
             <label for="tgl-lahir">Tanggal Lahir</label>
             <input type="date" id="brithdate">
@@ -40,25 +40,25 @@
             <input type="text" id="nama" required>
 
             <label for="rt">RT</label>
-            <input type="text" id="RT" required>
+            <input type="text" id="p2" required>
 
             <label for="rw">RW</label>
-            <input type="text" id="RW" required>
+            <input type="text" id="p3" required>
 
             <label for="provinsi">Provinsi</label>
-            <input type="text" id="provinsi" required>
+            <input type="text" id="n1" required>
 
             <label for="provinsi">Kecamatan</label>
-            <input type="text" id="kecamatan" required>
+            <input type="text" id="n1" required>
 
             <label for="provinsi">Kelurahan/Desa</label>
-            <input type="text" id="kel-desa" required>
+            <input type="text" id="n1" required>
 
             <label for="nomor">Nomor Telepon</label>
-            <input type="text" id="nomor" required>
+            <input type="text" id="p1" required>
 
             <label for="Kode">Kode Pos</label>
-            <input type="text" id="nomor" required>
+            <input type="text" id="p1" required>
 
             <label for="agama">Agama</label>
             <select id="jenis">
@@ -71,25 +71,25 @@
             </select>
 
             <label for="Pendidikan">Pendidikan Terakhir</label>
-            <input type="text" id="Pendidikan" required>
+            <input type="text" id="n1" required>
 
             <label for="Pekerjaan">Pekerjaan</label>
-            <input type="text" id="Pekerjaan" required>
+            <input type="text" id="n1" required>
         </div>
 
         <div class="penanggung-jawab">
             <h1>II. Penanggung Jawab Pasien</h1>
             <label for="hubungan">Hubungan Dengan Pasien</label>
-            <input type="text" id="hubungan" required>
+            <input type="text" id="n1" required>
 
             <label for="nama-penganngung">Nama Penanggung Jawab</label>
-            <input type="text" id="nama-penanggung" required>
+            <input type="text" id="n1" required>
 
             <label for="Pendidikan">Pendidikan P.Jawab</label>
-            <input type="text" id="Pendidikan-penganggung" required>
+            <input type="text" id="n1" required>
 
             <label for="Pekerjaan">Pekerjaan P.Jawab</label>
-            <input type="text" id="Pekerjaan-penanggung" required>
+            <input type="text" id="n1" required>
         </div>
 
         <div class="tertanda">
@@ -98,10 +98,10 @@
         </div>
 
 
-        <button>Submit</button>
-        <script src="script.js"></script>
-
+        <td><input type="submit" value="submit" onclick="submit_form()"></td>
+        
     </form>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
